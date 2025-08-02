@@ -28,6 +28,35 @@ For Software:
 - CSS
 - Javascript
 
+# Run
+[commands]
+
+### Project Documentation
+For Software:
+
+# Screenshots (Add at least 3)
+screenshot 1 :
+<img width="1434" height="751" alt="Screenshot 2025-08-02 204511" src="https://github.com/user-attachments/assets/a669a512-d8ef-48b5-b67d-f9f96998b8a6" />
+
+screenshot 2 :
+<img width="1104" height="892" alt="Screenshot 2025-08-02 204533" src="https://github.com/user-attachments/assets/0f9750e8-99a5-4ef2-8c96-ebd3ad6aa1ce" />
+
+screenshot 3 :
+<img width="1131" height="885" alt="Screenshot 2025-08-02 204603" src="https://github.com/user-attachments/assets/dd3e13f4-382c-49e9-a445-6269fa74855a" />
+
+### Project Demo
+# Video
+
+
+https://github.com/user-attachments/assets/b2951785-5b3f-473d-8592-b1eb62e9a901
+
+-when you enter the website we get a interface to start the game. On clicking start game button  the game begins. 
+-Its work like a traditional snake game but when we miss the apple repeatly the snake get emotional damages. so it express its emotions through chats .
+-There is option to pep the snake 2 times.
+- After that when we repeate missing the apple the snake left the Game
+
+
+
 ## Team Contributions
 - kalidas K: FrontEnd
   Edrick: funtionality
