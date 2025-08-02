@@ -34,7 +34,7 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 screenshot 1 :
 <img width="1434" height="751" alt="Screenshot 2025-08-02 204511" src="https://github.com/user-attachments/assets/a669a512-d8ef-48b5-b67d-f9f96998b8a6" />
 
