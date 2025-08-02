@@ -36,7 +36,8 @@ For Software:
 
 # Screenshots
 screenshot 1 :
-<img width="1434" height="751" alt="Screenshot 2025-08-02 204511" src="https://github.com/user-attachments/assets/a669a512-d8ef-48b5-b67d-f9f96998b8a6" />
+<img width="1470" height="879" alt="Screenshot 2025-08-02 211206" src="https://github.com/user-attachments/assets/107b0e08-c609-44dc-bec7-4a48f7686c6d" />
+
 
 screenshot 2 :
 <img width="1104" height="892" alt="Screenshot 2025-08-02 204533" src="https://github.com/user-attachments/assets/0f9750e8-99a5-4ef2-8c96-ebd3ad6aa1ce" />
