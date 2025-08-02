@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #2f3e2e, #1d1d1d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Add a snake background pattern */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/snake-skin.png');
+    opacity: 0.04;
+    z-index: 0;
+}
+
+.container {
+    background-color: #1e261f;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    border: 2px solid #4a914a;
+}
+
+.screen {
+    display: none;
+    text-align: center;
+}
+
+.screen.active {
+    display: block;
+}
+
+#start-screen h1 {
+    color: #c7f312;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #000;
+    animation: slither 3s infinite ease-in-out;
+}
+
+#start-screen p {
+    font-size: 1.2rem;
+    color: #b0bfa3;
+    margin-bottom: 20px;
+}
+
+/* Snakey button */
+button {
+    background-color: #4a914a;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+button:hover {
+    background-color: #3e7b3e;
+    transform: scale(1.05);
+}
+
+button::after {
+    content: "🐍";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    animation: wiggle 2s infinite;
+}
+
+/* Snake slither animation */
+@keyframes slither {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0px); }
+}
+
+/* Tail wiggle animation for button snake */
+@keyframes wiggle {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    25% { transform: translateY(-50%) rotate(10deg); }
+    50% { transform: translateY(-50%) rotate(-10deg); }
+    75% { transform: translateY(-50%) rotate(5deg); }
+    100% { transform: translateY(-50%) rotate(0deg); }
+}

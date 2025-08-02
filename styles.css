@@ -1,0 +1,105 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #2f3e2e, #1d1d1d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/snake-skin.png');
+    opacity: 0.04;
+    z-index: 0;
+}
+
+h1 {
+    color: #c7f312;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+    z-index: 1;
+}
+
+#score {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+canvas {
+    background-color: #000;
+    border: 3px solid #4a914a;
+    margin: 20px 0;
+    z-index: 1;
+}
+
+#quote {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    color: orange;
+    min-height: 2rem;
+    z-index: 1;
+}
+
+#pepBtn {
+    margin-top: 15px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #4a914a;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+#pepBtn:hover {
+    background-color: #3e7b3e;
+    transform: scale(1.05);
+}
+
+#pepBtn::after {
+    content: "🐍";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    animation: wiggle 2s infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    25% { transform: translateY(-50%) rotate(10deg); }
+    50% { transform: translateY(-50%) rotate(-10deg); }
+    75% { transform: translateY(-50%) rotate(5deg); }
+    100% { transform: translateY(-50%) rotate(0deg); }
+}
+
+@keyframes slither {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0px); }
+}

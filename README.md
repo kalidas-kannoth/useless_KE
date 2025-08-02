@@ -9,18 +9,17 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: kalidas k - Albertain Institute of science and technology.
+- Member 2: Edrik Elias George  - Albertain Institute of science and technology.
 
 ### Project Description
-[2-3 lines about what your project does]
+The Emotional Snake Game is a fun and creative twist on the classic Snake game, designed using HTML5 Canvas and JavaScript. Unlike traditional versions, this snake has emotions — it gets depressed if it doesn't find an apple within 15 seconds! The snake’s mood affects gameplay, including delayed responses and random sad quotes in Malayalam/English, adding a humorous and relatable touch.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The classic snake game is fun, but emotionally flat. What if the snake had feelings — got depressed without apples, ignored your controls, and dropped sad Malayalam quotes?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Build a snake that gets emotionally unstable if it doesn’t eat in time. It slows down, ignores input, shows funny quotes, and ends the game if sadness goes too far — adding humor and personality to a classic game.
 
 ## Technical Details
 ### Technologies/Components Used
